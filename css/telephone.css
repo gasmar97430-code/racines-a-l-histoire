@@ -1,0 +1,68 @@
+/* ---- RACINES SUR LE TÉLÉPHONE : MISE EN PAGE (n° 279, 03/10/2026) ----
+ * Matières de l'appli (theme.css, nocturne.css recopiés tels quels) ; ici seulement la page qui défile,
+ * la marque, les couvertures du Catalogue et le bloc « installer / faire connaître ». Téléphone d'abord (16 px de marge).
+ */
+html, body { height: auto; }
+body { overflow-x: hidden; overflow-y: auto; margin: 0; background: var(--color-bg); color: var(--color-text); -webkit-text-size-adjust: 100%; }
+*, *::before, *::after { box-sizing: border-box; }
+
+.marque { display: flex; align-items: center; gap: 8px; color: inherit; }
+.marque-sigle { background: oklch(0.97 0.004 80); color: oklch(0.14 0.004 70); font: 600 10px/1 var(--font-body); letter-spacing: .14em; padding: 4px 6px; border-radius: 3px; }
+.marque-nom { font: 400 16px/1 var(--font-heading); color: oklch(0.97 0.004 80); white-space: nowrap; }
+.tel-barre { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; padding: 14px 16px; padding-top: max(14px, env(safe-area-inset-top));
+  background: color-mix(in oklch, var(--color-bg) 92%, transparent); backdrop-filter: blur(8px); box-shadow: inset 0 -1px 0 var(--color-divider); }
+
+.tel-page { max-width: 1080px; margin: 0 auto; padding: 0 16px max(32px, env(safe-area-inset-bottom)); }
+.tel-accueil { padding: 26px 0 6px; }
+.tel-accueil h1 { margin: 0 0 8px; font: 400 30px/1.12 var(--font-heading); color: var(--color-accent-200); }
+.tel-chapeau { margin: 0; font: italic 400 16px/1.5 var(--font-heading); color: var(--color-neutral-300); max-width: 560px; }
+.tel-gratuit { display: inline-flex; align-items: center; gap: 6px; margin: 12px 0 0; padding: 4px 10px; border-radius: 999px;
+  font: 600 12px var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--color-accent-300); box-shadow: inset 0 0 0 1px var(--color-accent-600); }
+
+.tel-appli { margin: 18px 0 8px; padding: 14px 16px; border-radius: 12px; background: var(--color-surface); box-shadow: inset 0 0 0 1px var(--color-divider);
+  display: flex; flex-direction: column; gap: 12px; }
+.tel-appli-texte { margin: 0; font: 400 14px/1.5 var(--font-body); color: var(--color-neutral-300); }
+.tel-appli-boutons { display: flex; flex-wrap: wrap; gap: 10px; }
+.tel-appli-boutons .btn { min-height: 44px; padding: 0 16px; gap: 8px; font-size: 14px; justify-content: center; }
+.tel-btn-plein { background: var(--color-accent); color: oklch(0.16 0.01 60); border-color: var(--color-accent); font-weight: 600; }
+.tel-appli-boutons .ph { font-size: 18px; }
+.tel-aide { margin: 0; padding-left: 22px; font: 400 14px/1.6 var(--font-body); color: var(--color-text); }
+.tel-appli-message { margin: 0; font: 400 13.5px var(--font-body); color: var(--color-accent-300); }
+
+.tel-compte { margin: 18px 0 0; font: 400 13px var(--font-body); color: var(--color-neutral-400); }
+.tel-section { margin-top: 26px; }
+.tel-section h2 { margin: 0; font: 400 22px var(--font-heading); color: var(--color-text); display: flex; align-items: baseline; gap: 8px; }
+.tel-section h2 small { font: 500 11px var(--font-mono); color: var(--color-neutral-400); }
+.tel-sous { margin: 4px 0 0; font: 400 13px/1.5 var(--font-body); color: var(--color-neutral-400); }
+.tel-grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px 12px; margin-top: 14px; }
+@media (min-width: 700px) { .tel-grille { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 22px 18px; } }
+.tel-erreur { color: var(--color-accent-300); }
+
+/* couvertures : celles du Catalogue de l'appli (app.css, bloc CATALOGUE) */
+.carte-livre { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.couv { aspect-ratio: 2 / 3; border-radius: 2px 6px 6px 2px; box-shadow: inset 6px 0 0 oklch(0.1 0 0 / .18), var(--shadow-md);
+  padding: 16px 12px; display: flex; flex-direction: column; gap: 8px; border: 0; text-align: left; width: 100%; font: inherit; overflow: hidden; }
+button.couv { cursor: pointer; }
+.couv-num { font: 500 8.5px var(--font-mono); letter-spacing: .12em; overflow-wrap: anywhere; }
+.couv-trait { width: 26px; height: 1px; background: currentColor; opacity: .6; flex: none; }
+.couv-titre { font: 400 16px/1.15 var(--font-heading); overflow-wrap: break-word; hyphens: auto; }
+.couv-maison { margin-top: auto; font: 600 8px var(--font-body); letter-spacing: .14em; opacity: .75; }
+.carte-zone { font: 400 12px var(--font-body); color: var(--color-neutral-400); }
+
+/* livre pas encore paru (n° 282) : titre net, ne s'ouvre pas */
+.carte-fermee .couv { cursor: default; }
+
+/* fiche d'un livre publié */
+.tel-fiche { width: min(520px, calc(100% - 32px)); padding: 0; border: 0; border-radius: 12px; background: var(--color-surface); color: var(--color-text); box-shadow: var(--shadow-md); }
+.tel-fiche::backdrop { background: oklch(0.1 0 0 / .6); }
+.tel-fiche-tete { padding: 22px 20px; }
+.tel-fiche-tete h3 { margin: 8px 0 6px; font: 400 24px/1.15 var(--font-heading); }
+.tel-fiche-tete p { margin: 0; font: italic 400 14px/1.4 var(--font-heading); opacity: .85; }
+.tel-fiche-corps { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 12px; font: 400 14.5px/1.6 var(--font-body); }
+.tel-fiche-corps p { margin: 0; }
+.tel-fiche-meta { color: var(--color-neutral-400); font-size: 13px; }
+.tel-fiche-corps .btn { align-self: flex-end; min-height: 44px; }
+
+.tel-pied { margin-top: 40px; padding-top: 18px; box-shadow: inset 0 1px 0 var(--color-divider); display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  font: 400 12px var(--font-body); color: var(--color-neutral-400); }
+/* ---- FIN RACINES SUR LE TÉLÉPHONE ---- */

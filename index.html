@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Racines à l'Histoire</title>
+<meta name="description" content="M'ASTEL.974 · Racines à l'Histoire — maison d'édition numérique de La Réunion. Gratuit.">
+<!-- Appli installable sur le téléphone (n° 279) : manifeste, couleur, icône iPhone, petit service sans mémoire -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#181613">
+<link rel="apple-touch-icon" href="icones/icone-apple-180.png">
+<link rel="icon" type="image/png" href="icones/icone-192.png">
+<link rel="stylesheet" href="css/nocturne.css">
+<link rel="stylesheet" href="vendor/phosphor/regular/style.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/telephone.css">
+<script>
+  if ('serviceWorker' in navigator) window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+</script>
+</head>
+<body>
+<header class="tel-barre">
+  <span class="marque"><span class="marque-sigle">M'ASTEL.974</span><span class="marque-nom">Racines à l'Histoire</span></span>
+</header>
+<main class="tel-page">
+  <section class="tel-accueil">
+    <h1>Racines à l'Histoire</h1>
+    <p class="tel-chapeau">Maison d'édition numérique de La Réunion : l'histoire de l'île, de tome en tome et de ville en ville.</p>
+    <p class="tel-gratuit"><i class="ph ph-gift"></i> Gratuit</p>
+  </section>
+  <section class="tel-appli" data-bloc="appli-telephone"></section>
+  <p class="tel-compte" data-compte></p>
+  <div class="tel-collection" data-collection></div>
+  <footer class="tel-pied">
+    <span class="marque-sigle">M'ASTEL.974</span>
+    <span>Marius Gastellier · Racines à l'Histoire</span>
+  </footer>
+</main>
+<dialog class="tel-fiche" data-fiche></dialog>
+<script type="module" src="js/vitrine.js"></script>
+<script type="module" src="js/appli-telephone.js"></script>
+</body>
+</html>

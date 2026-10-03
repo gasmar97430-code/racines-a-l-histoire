@@ -1,0 +1,562 @@
+{
+ "adresse": "https://gasmar97430-code.github.io/racines-a-l-histoire/",
+ "total": 59,
+ "publies": 0,
+ "sections": [
+  {
+   "titre": "La Frise",
+   "sous": "Dix tomes, de l'île vierge aux bals populaires",
+   "livres": [
+    {
+     "id": "tome-1-ile-vierge",
+     "numero": "TOME I",
+     "titre": "L'Île Vierge et les Premiers Navigateurs",
+     "fond": "oklch(0.30 0.05 230)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "pirates-bourbon",
+     "numero": "TOME II",
+     "titre": "L’histoire de la piraterie à La Réunion",
+     "fond": "oklch(0.27 0.05 230)",
+     "encre": "oklch(0.93 0.03 85)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-3-cafe-moka",
+     "numero": "TOME III",
+     "titre": "Le Temps des Marchés, du Café Moka et de l'Installation",
+     "fond": "oklch(0.30 0.06 55)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-4-machine-esclavagiste",
+     "numero": "TOME IV",
+     "titre": "L'Ombre du Colonialisme et la Machine Esclavagiste",
+     "fond": "oklch(0.26 0.04 35)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-5-marronnage",
+     "numero": "TOME V",
+     "titre": "La Révolte, le Marronnage et l'Exode vers les Hauts",
+     "fond": "oklch(0.30 0.05 150)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Les Hauts et les cirques",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-6-engagisme",
+     "numero": "TOME VI",
+     "titre": "L'Abolition et le Temps de l'Engagisme",
+     "fond": "oklch(0.30 0.05 190)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-7-guerres-mondiales",
+     "numero": "TOME VII",
+     "titre": "Le Sang des Tirailleurs et les Guerres Mondiales",
+     "fond": "oklch(0.28 0.05 15)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-8-ciel-et-terre",
+     "numero": "TOME VIII",
+     "titre": "Les Colères du Ciel et les Métamorphoses de la Terre",
+     "fond": "oklch(0.28 0.05 230)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-9-chemins-de-fer",
+     "numero": "TOME IX",
+     "titre": "Les Chemins de Fer et les Roues Lontan",
+     "fond": "oklch(0.30 0.04 55)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tome-10-bals-populaires",
+     "numero": "TOME X",
+     "titre": "La Poussière, les Cuivres et les Bals Populaires",
+     "fond": "oklch(0.31 0.06 35)",
+     "encre": "oklch(0.95 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    }
+   ]
+  },
+  {
+   "titre": "De ville en ville",
+   "sous": "Les carnets des vingt-quatre communes, comme les griots",
+   "livres": [
+    {
+     "id": "carnet-saint-denis",
+     "numero": "DE VILLE EN VILLE · SAINT-DENIS",
+     "titre": "Saint-Denis",
+     "fond": "oklch(0.30 0.05 20)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Nord",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-sainte-marie",
+     "numero": "DE VILLE EN VILLE · SAINTE-MARIE",
+     "titre": "Sainte-Marie",
+     "fond": "oklch(0.30 0.05 280)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Nord",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-sainte-suzanne",
+     "numero": "DE VILLE EN VILLE · SAINTE-SUZANNE",
+     "titre": "Sainte-Suzanne",
+     "fond": "oklch(0.30 0.05 110)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-andre",
+     "numero": "DE VILLE EN VILLE · SAINT-ANDRÉ",
+     "titre": "Saint-André",
+     "fond": "oklch(0.30 0.05 330)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-salazie",
+     "numero": "DE VILLE EN VILLE · SALAZIE",
+     "titre": "Salazie",
+     "fond": "oklch(0.30 0.05 160)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-bras-panon",
+     "numero": "DE VILLE EN VILLE · BRAS-PANON",
+     "titre": "Bras-Panon",
+     "fond": "oklch(0.30 0.05 200)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-benoit",
+     "numero": "DE VILLE EN VILLE · SAINT-BENOÎT",
+     "titre": "Saint-Benoît",
+     "fond": "oklch(0.30 0.05 130)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-plaine-des-palmistes",
+     "numero": "DE VILLE EN VILLE · LA PLAINE-DES-PALMISTES",
+     "titre": "La Plaine-des-Palmistes",
+     "fond": "oklch(0.30 0.05 175)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-sainte-rose",
+     "numero": "DE VILLE EN VILLE · SAINTE-ROSE",
+     "titre": "Sainte-Rose",
+     "fond": "oklch(0.25 0.07 5)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Est",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-philippe",
+     "numero": "DE VILLE EN VILLE · SAINT-PHILIPPE",
+     "titre": "Saint-Philippe",
+     "fond": "oklch(0.27 0.06 320)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-joseph",
+     "numero": "DE VILLE EN VILLE · SAINT-JOSEPH",
+     "titre": "Saint-Joseph",
+     "fond": "oklch(0.26 0.05 100)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-petite-ile",
+     "numero": "DE VILLE EN VILLE · PETITE-ÎLE",
+     "titre": "Petite-Île",
+     "fond": "oklch(0.27 0.06 95)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-pierre",
+     "numero": "DE VILLE EN VILLE · SAINT-PIERRE",
+     "titre": "Saint-Pierre",
+     "fond": "oklch(0.27 0.06 250)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-le-tampon",
+     "numero": "DE VILLE EN VILLE · LE TAMPON",
+     "titre": "Le Tampon",
+     "fond": "oklch(0.27 0.05 75)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-l-entre-deux",
+     "numero": "DE VILLE EN VILLE · L'ENTRE-DEUX",
+     "titre": "L'Entre-Deux",
+     "fond": "oklch(0.27 0.05 145)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-louis",
+     "numero": "DE VILLE EN VILLE · SAINT-LOUIS",
+     "titre": "Saint-Louis",
+     "fond": "oklch(0.28 0.05 40)",
+     "encre": "oklch(0.94 0.03 80)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-cilaos",
+     "numero": "DE VILLE EN VILLE · CILAOS",
+     "titre": "Cilaos",
+     "fond": "oklch(0.29 0.05 40)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-l-etang-sale",
+     "numero": "DE VILLE EN VILLE · L'ÉTANG-SALÉ",
+     "titre": "L'Étang-Salé",
+     "fond": "oklch(0.27 0.04 230)",
+     "encre": "oklch(0.94 0.02 90)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-les-avirons",
+     "numero": "DE VILLE EN VILLE · LES AVIRONS",
+     "titre": "Les Avirons",
+     "fond": "oklch(0.28 0.05 150)",
+     "encre": "oklch(0.94 0.03 90)",
+     "zone": "Sud",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-leu",
+     "numero": "DE VILLE EN VILLE · SAINT-LEU",
+     "titre": "Saint-Leu",
+     "fond": "oklch(0.30 0.06 230)",
+     "encre": "oklch(0.95 0.02 90)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-les-trois-bassins",
+     "numero": "DE VILLE EN VILLE · LES TROIS-BASSINS",
+     "titre": "Les Trois-Bassins",
+     "fond": "oklch(0.28 0.05 190)",
+     "encre": "oklch(0.94 0.03 90)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-saint-paul",
+     "numero": "DE VILLE EN VILLE · SAINT-PAUL",
+     "titre": "Saint-Paul",
+     "fond": "oklch(0.33 0.05 45)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-le-port",
+     "numero": "DE VILLE EN VILLE · LE PORT",
+     "titre": "Le Port",
+     "fond": "oklch(0.29 0.05 245)",
+     "encre": "oklch(0.95 0.02 90)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-la-possession",
+     "numero": "DE VILLE EN VILLE · LA POSSESSION",
+     "titre": "La Possession",
+     "fond": "oklch(0.29 0.05 150)",
+     "encre": "oklch(0.94 0.03 90)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnet-mafate",
+     "numero": "DE VILLE EN VILLE · MAFATE",
+     "titre": "Mafate",
+     "fond": "oklch(0.30 0.05 130)",
+     "encre": "oklch(0.94 0.03 90)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    }
+   ]
+  },
+  {
+   "titre": "Hors-séries",
+   "sous": "Essais, dossiers et chroniques",
+   "livres": [
+    {
+     "id": "manifeste-editeur",
+     "numero": "MANIFESTE",
+     "titre": "La Lumière sur nos Pas et la Mémoire des Sables",
+     "fond": "oklch(0.28 0.05 60)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "chroniques-secretes",
+     "numero": "HORS-SÉRIE N° 2",
+     "titre": "Le Recueil des Chroniques Secrètes & Insolites",
+     "fond": "oklch(0.22 0.03 280)",
+     "encre": "oklch(0.92 0.03 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "gematrie-du-9",
+     "numero": "HORS-SÉRIE N° 1",
+     "titre": "Gématrie divine française du 9",
+     "fond": "oklch(0.22 0.04 290)",
+     "encre": "oklch(0.90 0.06 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "ou-va-notre-eau",
+     "numero": "HORS-SÉRIE N° 3",
+     "titre": "Où va notre eau ?",
+     "fond": "oklch(0.28 0.06 230)",
+     "encre": "oklch(0.93 0.03 200)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "langue-des-oiseaux",
+     "numero": "HORS-SÉRIE N° 4",
+     "titre": "La Langue des Oiseaux",
+     "fond": "oklch(0.24 0.05 160)",
+     "encre": "oklch(0.92 0.06 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "archipel-langues-oubliees",
+     "numero": "HORS-SÉRIE N° 5",
+     "titre": "L'Archipel des langues oubliées",
+     "fond": "oklch(0.26 0.05 200)",
+     "encre": "oklch(0.93 0.04 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "affaire-sitarane",
+     "numero": "DOSSIER",
+     "titre": "L'affaire Sitarane",
+     "fond": "oklch(0.21 0.06 350)",
+     "encre": "oklch(0.93 0.03 80)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "fleaux-et-remedes",
+     "numero": "HORS-SÉRIE N° 6",
+     "titre": "Les Fléaux et les Remèdes",
+     "fond": "oklch(0.25 0.06 345)",
+     "encre": "oklch(0.93 0.04 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "case-divisee",
+     "numero": "HORS-SÉRIE N° 7",
+     "titre": "La Case divisée",
+     "fond": "oklch(0.26 0.05 45)",
+     "encre": "oklch(0.93 0.03 80)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "mysteres-insolites",
+     "numero": "HORS-SÉRIE N° 8",
+     "titre": "Mystères et phénomènes insolites de l'île",
+     "fond": "oklch(0.20 0.05 115)",
+     "encre": "oklch(0.93 0.05 95)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "metiers-disparus",
+     "numero": "HORS-SÉRIE N° 9",
+     "titre": "Les Métiers disparus",
+     "fond": "oklch(0.23 0.035 110)",
+     "encre": "oklch(0.92 0.05 75)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "maloya-sega-monde",
+     "numero": "HORS-SÉRIE N° 10",
+     "titre": "Maloya et séga, un carrefour du monde",
+     "fond": "oklch(0.24 0.07 305)",
+     "encre": "oklch(0.94 0.03 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "tisanes-plantes-guerison",
+     "numero": "HORS-SÉRIE N° 11",
+     "titre": "Le Secret des Tisanes et des Plantes de Guérison",
+     "fond": "oklch(0.24 0.05 125)",
+     "encre": "oklch(0.93 0.04 90)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "vie-quotidienne-lontan",
+     "numero": "HORS-SÉRIE N° 12",
+     "titre": "La Vie quotidienne lontan",
+     "fond": "oklch(0.27 0.06 72)",
+     "encre": "oklch(0.94 0.035 90)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "volcans-et-pitons",
+     "numero": "HORS-SÉRIE N° 13",
+     "titre": "Le Livre des volcans et des pitons",
+     "fond": "oklch(0.23 0.07 25)",
+     "encre": "oklch(0.93 0.04 80)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "famille-verges",
+     "numero": "HORS-SÉRIE N° 14",
+     "titre": "La famille Vergès",
+     "fond": "oklch(0.24 0.06 25)",
+     "encre": "oklch(0.93 0.03 85)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "carnets-anticipation-resistance",
+     "numero": "HORS-SÉRIE N° 15",
+     "titre": "Carnets d'anticipation et de résistance",
+     "fond": "oklch(0.22 0.02 250)",
+     "encre": "oklch(0.93 0.01 80)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "veillees-cabanons",
+     "numero": "HORS-SÉRIE N° 16",
+     "titre": "Veillées et Cabanons",
+     "fond": "oklch(0.21 0.06 268)",
+     "encre": "oklch(0.92 0.07 80)",
+     "zone": "Hors-série",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "entracte",
+     "numero": "ENTRACTE",
+     "titre": "Entracte",
+     "fond": "oklch(0.20 0.02 300)",
+     "encre": "oklch(0.94 0.02 85)",
+     "zone": "Toute l'île",
+     "statut": "En rédaction"
+    }
+   ]
+  },
+  {
+   "titre": "Dossiers d'enquête",
+   "sous": "",
+   "livres": [
+    {
+     "id": "captives-1663",
+     "numero": "DOSSIER N° 04",
+     "titre": "La vérité sur les 12 captives de 1663",
+     "fond": "oklch(0.30 0.06 35)",
+     "encre": "oklch(0.94 0.022 82)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "enfants-savannah",
+     "numero": "DOSSIER N° 06",
+     "titre": "Les enfants inhumés sous les pailles de canne à Savannah",
+     "fond": "oklch(0.38 0.05 90)",
+     "encre": "oklch(0.95 0.02 85)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "mafate-les-eaux",
+     "numero": "DOSSIER N° 08",
+     "titre": "Mafate-les-Eaux",
+     "fond": "oklch(0.30 0.04 160)",
+     "encre": "oklch(0.93 0.025 85)",
+     "zone": "Mafate",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "morts-de-froid-fournaise",
+     "numero": "DOSSIER N° 07",
+     "titre": "Les morts de froid oubliés du Piton de la Fournaise",
+     "fond": "oklch(0.32 0.03 250)",
+     "encre": "oklch(0.94 0.015 230)",
+     "zone": "Hauts",
+     "statut": "En rédaction"
+    },
+    {
+     "id": "stella-matutina",
+     "numero": "DOSSIER N° 05",
+     "titre": "Les châtiments cachés du domaine de Stella Matutina",
+     "fond": "oklch(0.20 0.01 60)",
+     "encre": "oklch(0.90 0.03 80)",
+     "zone": "Ouest",
+     "statut": "En rédaction"
+    }
+   ]
+  }
+ ]
+}

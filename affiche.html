@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Affiche · Racines à l'Histoire</title>
+<!-- Affiche d'une page à imprimer (n° 279) : nom, « gratuit », QR de l'adresse, 3 lignes. Papier blanc, encre sombre. -->
+<link rel="stylesheet" href="css/nocturne.css">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  html, body { margin: 0; background: #fff; color: #1b1712; }
+  .affiche { width: 210mm; height: 297mm; margin: 0 auto; padding: 22mm 20mm 18mm; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .sigle { font: 600 13pt 'Inter', sans-serif; letter-spacing: .2em; background: #1b1712; color: #fff; padding: 2mm 3.5mm; border-radius: 1.5mm; }
+  h1 { margin: 10mm 0 3mm; font: 400 40pt/1.05 'Libre Caslon Text', Georgia, serif; }
+  .chapeau { margin: 0; font: italic 400 15pt/1.4 'Libre Caslon Text', Georgia, serif; color: #4a4036; max-width: 150mm; }
+  .gratuit { margin: 9mm 0 0; font: 700 26pt 'Inter', sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #8a3a22; border: 1.2mm solid #8a3a22; padding: 2mm 9mm; border-radius: 3mm; }
+  .qr { margin: 10mm 0 4mm; width: 92mm; height: 92mm; }
+  .qr img { width: 100%; height: 100%; display: block; }
+  .adresse { font: 500 10.5pt 'JetBrains Mono', monospace; color: #4a4036; word-break: break-all; }
+  ol { margin: 9mm 0 0; padding: 0; list-style: none; counter-reset: n; text-align: left; font: 400 14pt/1.45 'Inter', sans-serif; max-width: 160mm; }
+  ol li { counter-increment: n; display: flex; gap: 4mm; margin: 0 0 3mm; }
+  ol li::before { content: counter(n); flex: none; width: 8mm; height: 8mm; border-radius: 50%; background: #1b1712; color: #fff; font: 700 12pt/8mm 'Inter', sans-serif; text-align: center; }
+  .pied { margin-top: auto; font: 400 10pt 'Inter', sans-serif; color: #6b5f52; }
+</style>
+</head>
+<body>
+<div class="affiche">
+  <span class="sigle">M'ASTEL.974</span>
+  <h1>Racines à l'Histoire</h1>
+  <p class="chapeau">L'histoire de La Réunion, de tome en tome et de ville en ville, sur votre téléphone.</p>
+  <p class="gratuit">Gratuit</p>
+  <div class="qr"><img src="qr-adresse.svg" alt="Code QR de l'adresse de l'appli"></div>
+  <div class="adresse" data-adresse>https://gasmar97430-code.github.io/racines-a-l-histoire/</div>
+  <ol>
+    <li>Visez ce code avec l'appareil photo du téléphone et touchez le lien.</li>
+    <li>Touchez « Installer Racines sur mon téléphone » (iPhone : Partager, puis « Sur l'écran d'accueil »).</li>
+    <li>Racines s'ouvre depuis votre écran d'accueil, comme une appli. Rien à payer.</li>
+  </ol>
+  <div class="pied">Marius Gastellier · M'ASTEL.974 · Racines à l'Histoire</div>
+</div>
+</body>
+</html>
